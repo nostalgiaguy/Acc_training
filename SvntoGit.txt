@@ -1,0 +1,12 @@
+Repo Location eg svn://localhost/SVNRepo (file://C:\SVNRepo)
+
+Migration from SVN to Git
+
+Create a SVN Repo using Tortoise SVN
+Run the SVN server deamon with following command
+
+svnserve -d --foreground
+
+git config --remove-section svn-remote.svn
+
+git svn clone svn://localhost//SVNRepo
