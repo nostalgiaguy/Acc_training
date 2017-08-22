@@ -1,0 +1,16 @@
+git diff 333ed..HEAD            ++CHNAGES
+git loggit commit -m "comment"
+vi Readme.txt
+esc shift : wq(saving)  q!(discard)
+git add Readme.txtgit status
+touch <filename>git add <filename>git add .git add .txtgit add .doc
+git branch
+git checkout -b develop master
+git merge develop
+git tag v1.0git tag
+git branch -D hotfix
+git clone <url>
+git fetchgit mergegit log develop..origin/develop
+git remote --verbose
+git pullgit push
+Acc@13579$$
